@@ -72,6 +72,36 @@ To clone this repository, follow these steps:
 
 5. Open the project in your preferred code editor.
 
+Here’s how you can add a Developers section and a Contributing section to your README:
+
+---
+
+## Developers
+This project is being developed by:
+
+- **[Nishieeee](https://github.com/Nishieeee)** (Lead Developer)
+- **[Nekolaiv](https://github.com/nekolaiv)** (Co-developer)
+
+## Contributing
+We welcome contributions to improve this project! To contribute:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. Push to your branch:
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+5. Open a pull request describing your changes.
+
+Please ensure that your contributions align with the project's goals and adhere to the coding standards used in the project.
+
 ## License
 This project is licensed under the MIT License. See the [LICENSE](License) file for details.
 
