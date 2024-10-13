@@ -71,3 +71,8 @@ To clone this repository, follow these steps:
    ```
 
 5. Open the project in your preferred code editor.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](License) file for details.
+
+Disclaimer: This project idea is inspired by existing library management systems and is not an original concept.
