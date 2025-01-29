@@ -1,0 +1,94 @@
+*,*::before, *::after {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+    --primary-color: #5e9beb;
+    --secondary-color: white;
+    --font-color: black;
+    --alt-font-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: var(--primary-color);
+    color: white;
+    padding: 10px;
+}
+header h1 {
+    font-size: 18pt;
+}
+nav {
+    justify-content: space-around;
+}
+nav a {
+    font-size: 15pt;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+nav a:hover {
+    background: white;
+    color: var(--primary-color);
+}
+
+h2 {
+    padding: 1rem 1.5rem;
+    font-size: 18pt;
+    text-align: left;
+}
+.mainpage {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px red;
+}
+
+.mainpage .borrowedbooks {
+    background: var(--primary-color);
+    color: var(--alt-font-color);
+    border-radius: 18px;
+    padding: 1rem 1.5rem;
+    height: 100%;
+    min-height: 310px;
+    max-height: 600px;
+    width: 100%;
+    min-width: 400px;
+    max-width: 500px;
+    text-align: center;
+}
+.borrowedbooks h5 {
+    padding: 1rem;
+}
+.borrowedbooks .book-info {
+    display: flex;
+    align-items: space-around;
+    justify-content: space-around;
+    text-align: center;    
+}
+.book-info div {
+    padding: 10px;
+}
+.book-info h2 {
+    margin-bottom: 1rem;
+    padding: 1rem 1.5rem;
+}
+.book-info button {
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+}
+.book-info button:hover {
+    transform: scale(1.1);
+}
+.book-info p{
+    margin-top: 3rem;
+    padding: 0.5rem 1rem;
+}

@@ -7,26 +7,30 @@
 }
 
 header {
-    background: #F6F7F8;
+    background: #5e9beb;
+    color: white;
     display: flex;
     align-content: space-between;
     justify-content: space-between;
-    border: 1px solid black;
     padding: 10px;
+}
+header h1 {
+    font-size: 18pt;
 }
 header #nav{
     display: flex;
     align-content: space-between;
 }
 header a{
-    color: #000000;
+    color: white;
     text-decoration: none;
+    padding: 5px;
     margin-left: 15px;
+    border-radius: 5px;
 }
 header a:hover {
-    color: #1D3BD3;
-    background-color: none;
-    border-bottom: 1px solid gray;
+    color: #5e9beb;
+    background-color: white;
 }
 
 
@@ -39,25 +43,30 @@ header a:hover {
 
 
 .section2 {
-    background: #f6f7f8;
+    background: #5e9beb;
     display: flex;
-    align-items: space-between;
     justify-content: space-between;
+    height: 60px;
     padding: 10px;
-    border: 1px solid black;
 }
 .buttons {
+    width: 290px;
     display: flex;
-    align-items: space-between;
     justify-content: space-between;
 }
 .section2 button {
     background: #FFFFFF;
-    padding: 10px;
+    padding: 2px;
     border: 1px solid gray;
     border-radius: 25px;
 }
 .dropdown {
+    border-radius: 25px;
+}
+.dropdown button {
+    background: #FFFFFF;
+    padding: 7px;
+    border: 1px solid gray;
     border-radius: 25px;
 }
 .d_menu {
@@ -88,24 +97,24 @@ header a:hover {
     padding-right: 3px;
     padding-left: 3px;
     border: 1px solid gray;
-    border-radius: 25px;
+    border-radius: 15px;
     
 }
 
 
 .bookshelf {
     padding: 20px;
+    margin: 20px;
     height: 500px;
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content:space-between;
     overflow-x: scroll;
 }
 #book {
     padding: 2px;
     margin-top: 10px;
-    background: #F6F7F8;
-    
+    background: #5e9beb;
     border-radius: 5px;
     height: 240px;
     width: 200px;
@@ -118,11 +127,11 @@ header a:hover {
     width: 195px;
 }
 #book a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 #book a:hover{
-    //WIP
+    
 }
 
 

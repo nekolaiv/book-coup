@@ -14,9 +14,8 @@
   <header>
       <h1>BookCoup</h1>
       <div id="nav">
-          <a href="">Library</a>
-          <a href="">About Us</a>
-          <a href="">Borrowed</a>
+          <a href="index.html">Library</a>
+          <a href="borrowedpage.html">Borrowed</a>
       </div>
   </header>
   
@@ -27,8 +26,9 @@
   <div class="section2">
       <div class="buttons">
         <div class="dropdown">
-            <button>Categories</button>
+            <button id="dropdown_button">Categories</button>
              <div class="d_menu">
+                 <a href="#">All</a>
                  <a href="#">Romance</a>
                  <a href="#">Comedy</a>
                  <a href="#">Drama</a>
@@ -36,7 +36,7 @@
                  <a href="#">Fantasy</a>
              </div>
         </div>
-            <button id="bbo">Most Borrowed</button>
+            <button id="bbo" onclick= butt() >Most Borrowed</button>
         </div>
   
       <input id="search_input" type="text" list="books" placeholder="Search by Title">
@@ -48,9 +48,9 @@
   
   <div class="bookshelf">
       <div id="book">
-        <a href="#">
-          <img src="book_cover.jpg" alt="book_cover.jpg">
-          <h4>Murder In Veron</h4>
+        <a href="book.html">
+          <img src="BookCover.jpeg" alt="book_cover.jpg">
+          <h4>Harry Potter</h4>
         </a>
       </div>
       <div id="book">

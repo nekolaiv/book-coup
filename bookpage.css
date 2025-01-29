@@ -1,0 +1,75 @@
+*,*::before, *::after {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif, Arial, Helvetica; 
+}
+
+header {
+    color: white;
+    background: #5E9BEB;
+    padding: 10px;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+}
+header h1 {
+    font-size: 18pt;
+}
+header a {
+    font-size: 15pt;
+    padding: 3px;
+    margin-left: 5px; 
+    text-decoration: none;
+    color: white;
+    border-radius: 5px; 
+}
+header a:hover {
+    background: white;
+    color: #5e9beb;
+}
+
+.book_page{
+    height: 70vh;
+    background: #f6f7fa;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.book {
+    color: white;
+    background: #5e9beb;
+    display: flex;
+    padding: 40px;
+    justify-content: space-around;
+    border: 1px solid gray;
+}
+.book_descript {
+    padding: 20px;
+}
+.book_descript .author_info {
+    padding: 5px;
+}
+.book_descript .genre {
+    padding: 5px;
+    justify-content: space-around;
+}
+.genre > button {
+    background: white;
+    color: #5e9beb;
+    border-radius: 5px;
+    padding: 3px;
+    border: #5e9beb;
+}
+.genre button:hover {
+    background: white;
+    color: #5e9beb;
+}
+.book_descript .book_dsc {
+    background: white;
+    color: black;
+    height: 23vh;
+    border-radius: 5px;
+    padding: 10px 5px 5px 5px;
+    font-family: fantasy;
+    font-size: small;
+}
