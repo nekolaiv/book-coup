@@ -7,17 +7,18 @@ const SECRET = 'your-secret-key';
 
 export async function POST(req: NextRequest) {
 
-    const { username, password } = await req.json();
+    const body = await req.json();
+    const { username, password } = body;
 
-    const user = users.find((u) => u.username === username);
+    const founduser = users.find((u) => u.username === username);
 
     if(
-        !user || !bcrypt.compareSync(password, user.password)
+        !founduser || !bcrypt.compareSync(password, founduser.password)
     ) {
         return NextResponse.json({message: 'Invalid Credentials'}, {status: 401});
     }
 
-    const token = jwt.sign({ username: user.username, role: user.role }, SECRET, {expiresIn: '1h'});
+    const token = jwt.sign({ username: founduser.username, role: founduser.role }, SECRET, {expiresIn: '1h'});
 
      return NextResponse.json( { token })
 }

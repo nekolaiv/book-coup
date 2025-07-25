@@ -3,6 +3,16 @@ export interface User {
   password: string
   role: "user" | "admin"
 }
+export interface UserRoleType {
+  username: string
+  role: "user" | "admin"
+}
+export interface AuthContextProps {
+  isLoggedIn: boolean
+  logout: () => void
+  user: UserRoleType | null
+  setUser: (user: UserRoleType | null) => void
+}
 
 export interface Book {
   id: string
