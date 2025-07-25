@@ -62,9 +62,9 @@ export function Navigation() {
           </div>
 
           <div className="flex items-center space-x-4">
-            <span className="text-sm text-gray-600">Welcome, {userName}</span>
-            <Button variant="outline" size="sm" onClick={toggleRole} className="text-xs bg-transparent">
-              Switch to {role === "admin" ? "User" : "Admin"}
+            <span className="text-sm text-gray-600">Go to</span>
+            <Button variant="outline" size="sm" className="text-xs bg-transparent">
+              <Link href="/login">Login</Link>
             </Button>
           </div>
         </div>

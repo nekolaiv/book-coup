@@ -1,3 +1,9 @@
+export interface User {
+  username: string
+  password: string
+  role: "user" | "admin"
+}
+
 export interface Book {
   id: string
   title: string
