@@ -3,7 +3,7 @@
 import { useState } from "react";
 import {jwtDecode} from 'jwt-decode';
 import { useAuth } from "@/contexts/authcontext";
-import { useRole } from "@/contexts/role-context"
+import { useRole } from "@/contexts/role-context";
 
 interface TokenPayload {
   username: string;
