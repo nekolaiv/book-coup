@@ -87,6 +87,8 @@ Where:
 * **📝 Borrow Book Page** – Submit book borrowing requests
 * **📦 Borrowed Books** – View user's current borrowed books
 
+For more information, visit the [Book Coup Wiki Page](https://github.com/nekolaiv/book-coup/wiki).
+
 ---
 
 ## 🛠️ Tech Stack
@@ -98,61 +100,13 @@ Where:
 
 ---
 
-## 📦 Getting Started
-
-To run the project locally:
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/nekolaiv/book-coup.git
-   ```
-
-2. **Navigate into the directory:**
-
-   ```bash
-   cd book-coup
-   ```
-
-3. **Install dependencies:**
-
-   ```bash
-   npm install
-   ```
-
-4. **Run the development server:**
-
-   ```bash
-   npm run dev
-   ```
-
-5. Open [http://localhost:3000](http://localhost:3000) to view in your browser.
-
----
-
-## 🤝 Contributing
+## 🤝 Getting Started and Contributing
 
 We welcome community contributions!
 
-1. **Fork** the repo
-2. Create your branch:
+Check the [How to Contribute](https://github.com/nekolaiv/book-coup/wiki/How-to-Contribute) page on wiki section.
 
-   ```bash
-   git checkout -b feature/YourFeatureName
-   ```
-3. Make your changes & commit:
-
-   ```bash
-   git commit -m "Add: Your feature"
-   ```
-4. Push to GitHub:
-
-   ```bash
-   git push origin feature/YourFeatureName
-   ```
-5. Submit a **Pull Request**
-
-Please follow our code style and keep features aligned with the project's goals.
+Please follow our code style, semantics and keep features aligned with the project's goals.
 
 ---
 
